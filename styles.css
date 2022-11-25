@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(2, 2, 66, 0.466), rgba(0, 0, 0, 0)), url(./images/water.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.gogo input[type="text"] {
+    outline: none;
+    border: none;
+    width: 90%;
+    margin-right: 7px;
+}
+
+.yo {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.icon-section{
+    background-color: rgb(233, 249, 255);
+}
+
+.saying-section{
+    background-color: rgb(233, 249, 255);
+}
+
+.fully{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.pics img{
+    border-radius: 50%;
+    height: 50vh;
+}
+
+.yes{
+    background-image: linear-gradient(rgba(2, 2, 66, 0.466), rgba(0, 0, 0, 0)), url(./images/water.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;   
+}
+
+.stop{
+    padding-top: 6rem;
+}
+
+.jjj input[type="text"] {
+    outline: none;
+    border: none;
+    width: 40%;
+    margin-right: 7px;
+}
