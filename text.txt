@@ -1,0 +1,5 @@
+what is a javascript statement?
+* A javascript statement is a statement tat consist of values, operators, expressions, keywords and comments.
+
+what is a variable?
+* A variable is 
