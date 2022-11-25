@@ -2,4 +2,7 @@ what is a javascript statement?
 * A javascript statement is a statement tat consist of values, operators, expressions, keywords and comments.
 
 what is a variable?
-* A variable is 
+* A variable is a language used to store data values
+
+What is a constant?
+*A constant is a value that its value cannot be changed
