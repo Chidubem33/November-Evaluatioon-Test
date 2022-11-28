@@ -6,3 +6,8 @@ what is a variable?
 
 What is a constant?
 *A constant is a value that its value cannot be changed
+
+ways of ouyputing javascript
+*using innerHTML .
+*using window.alert() .
+*using console.log() .
