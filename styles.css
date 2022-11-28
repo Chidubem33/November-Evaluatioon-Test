@@ -12,14 +12,15 @@
     height: 90vh;
 }
 
-.gogo input[type="text"] {
+.d-flex input[type="text"] {
     outline: none;
     border: none;
     width: 90%;
     margin-right: 7px;
 }
 
-.yo {
+.yo,
+.stop {
     padding-top: 12rem;
     padding-bottom: 12rem;
 }
@@ -39,7 +40,7 @@
 
 .pics img{
     border-radius: 50%;
-    height: 50vh;
+    height: 30vh;
 }
 
 .yes{
@@ -47,7 +48,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;   
+    min-height: 50vh;   
 }
 
 .stop{
@@ -60,3 +61,4 @@
     width: 40%;
     margin-right: 7px;
 }
+
