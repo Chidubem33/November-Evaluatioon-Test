@@ -1,64 +1,67 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.hero{
-    background-image: linear-gradient(rgba(2, 2, 66, 0.466), rgba(0, 0, 0, 0)), url(./images/water.jpg);
-    background-position: center;
+.hero-section {
+    background: url(./images/water.jpg) no-repeat center center;
     background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 90vh;
 }
 
-.d-flex input[type="text"] {
-    outline: none;
-    border: none;
-    width: 90%;
-    margin-right: 7px;
+.hero-section .h1 {
+    width: 85%;
+    margin: 0 auto;
 }
 
-.yo,
-.stop {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+.features-icons {
+    min-height: 70vh !important;
 }
 
-.icon-section{
-    background-color: rgb(233, 249, 255);
+.features-icons-item {
+    font-size: 70px !important;
 }
 
-.saying-section{
-    background-color: rgb(233, 249, 255);
-}
-
-.fully{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
-
-.pics img{
-    border-radius: 50%;
-    height: 30vh;
-}
-
-.yes{
-    background-image: linear-gradient(rgba(2, 2, 66, 0.466), rgba(0, 0, 0, 0)), url(./images/water.jpg);
-    background-position: center;
+.showcase .showcase-img {
+    min-height: 30rem;
     background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 50vh;   
 }
 
-.stop{
-    padding-top: 6rem;
+.showcase-img1 {
+    background: url(./images/iphone\ back.jpg) no-repeat center center;
+    background-size: cover;
 }
 
-.jjj input[type="text"] {
-    outline: none;
-    border: none;
-    width: 40%;
-    margin-right: 7px;
+.showcase-img2 {
+    background: url(./images/coding\ bug.jpg) no-repeat center center;
+    background-size: cover;
 }
 
+.showcase-img3 {
+    background: url(./images/laptop\ hand.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.showcase-div {
+    min-height: 80vh;
+}
+
+.showcase-text .text-container {
+    padding: 7rem;
+}
+
+@media screen and (max-width: 520px) {
+    .showcase-text .text-container {
+        padding: 3rem;
+    }
+    
+}
+
+.testimonials {
+    padding: 7rem 0;
+}
+
+.sign-up {
+    background: url(./images/water.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 7rem 0;
+}
+
+.footer {
+    min-height: 20vh;
+    padding: 4rem 0;
+}
