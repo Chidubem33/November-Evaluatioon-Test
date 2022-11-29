@@ -8,44 +8,36 @@
     margin: 0 auto;
 }
 
-.features-icons {
-    min-height: 70vh !important;
-}
-
-.features-icons-item {
-    font-size: 70px !important;
-}
-
-.showcase .showcase-img {
+.mkpafrang .okon {
     min-height: 30rem;
     background-size: cover;
 }
 
-.showcase-img1 {
+.iphone {
     background: url(./images/iphone\ back.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.showcase-img2 {
+.coding {
     background: url(./images/coding\ bug.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.showcase-img3 {
+.laptop {
     background: url(./images/laptop\ hand.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.showcase-div {
+.rebbecca {
     min-height: 80vh;
 }
 
-.showcase-text .text-container {
+.okon-text .text-container {
     padding: 7rem;
 }
 
 @media screen and (max-width: 520px) {
-    .showcase-text .text-container {
+    .okon-text .text-container {
         padding: 3rem;
     }
     
@@ -55,7 +47,7 @@
     padding: 7rem 0;
 }
 
-.sign-up {
+.ready{
     background: url(./images/water.jpg) no-repeat center center;
     background-size: cover;
     padding: 7rem 0;
@@ -64,4 +56,9 @@
 .footer {
     min-height: 20vh;
     padding: 4rem 0;
+}
+
+input{
+    box-shadow: none !important;
+    outline: none !important;
 }
